@@ -27,3 +27,7 @@ function start() {
     timer = setInterval(callTimer, 10);
 }
 
+function stop() {
+    document.getElementById("start").disabled = false;
+    clearInterval(timer);
+}
