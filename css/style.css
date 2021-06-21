@@ -1,0 +1,22 @@
+@font-face{
+    font-family: digital-7;
+    src: url(fonts/digital-7.ttf);
+}
+
+body {
+    color: #DAD6D6;
+    font-family: digital-7;
+    text-align: center;  
+    background-color: #171A21;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div{
+    min-width: 20%;
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+
