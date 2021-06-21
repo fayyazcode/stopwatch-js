@@ -31,3 +31,11 @@ function stop() {
     document.getElementById("start").disabled = false;
     clearInterval(timer);
 }
+
+function reset() {
+    stop();
+    min = 0;
+    sec = 0;
+    miliSec = 0;
+    document.getElementById("timer").innerHTML = min + ":" + sec + ":" + miliSec;
+}
