@@ -35,3 +35,32 @@ letter-spacing: 2px;
 cursor:pointer;
 }
 
+#stop {
+  margin: 20px 5px auto;
+  text-align: center;
+  color: #DAD6D6;
+  background: #721313;
+  
+  border-radius:5px;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  }
+  
+  #reset {
+  margin: 20px auto;
+  text-align: center;
+  color: #DAD6D6;
+  background: #564E58;
+  
+  border-radius:5px;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  }
+  
+  h1
+  {
+  letter-spacing: 10px;
+  margin: 150px 0 0 ;
+  }
