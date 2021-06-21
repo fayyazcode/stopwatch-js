@@ -21,3 +21,9 @@ function callTimer() {
     document.getElementById("timer").innerHTML = min + ":" + sec + ":" + miliSec;
 }
 
+
+function start() {
+    document.getElementById("start").disabled = true;
+    timer = setInterval(callTimer, 10);
+}
+
